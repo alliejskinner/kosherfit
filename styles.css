@@ -1,0 +1,63 @@
+/* Body Styles */
+body {
+  font-family: 'Roboto', sans-serif;  /* Apply Roboto to the body text */
+  background-color: #F0F0F0;  /* Slightly Off-White background */
+  color: #000000;  /* Black text color */
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  font-family: 'Merriweather', serif;  /* Apply Merriweather to headings */
+  color: #000000;  /* Black color for headings */
+}
+
+/* Navbar */
+nav {
+  background-color: #000000;  /* Black for navbar */
+  padding: 1rem;
+}
+
+nav a {
+  color: #fff;  /* White text for navbar links */
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #D4C9A1;  /* Light tan hover effect */
+}
+
+/* Buttons */
+button {
+  background-color: #000000;  /* Black button */
+  color: #fff;  /* White text */
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #D4C9A1;  /* Light tan on hover */
+}
+
+/* Cards */
+.card {
+  background-color: #fff;  /* White for card background */
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+input, select, textarea {
+  background-color: #F0F0F0;  /* Slightly Off-White */
+  border: 1px solid #D1D1D1;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input:focus {
+  border-color: #000000;  /* Black border when focused */
+}
